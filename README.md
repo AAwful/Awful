@@ -11865,7 +11865,7 @@ if BF then
 	end)
 	-- Server_Hop_LessPeople:Lock()
 	SettingTab:Line()
-	SettingTab:Button("Join discord",function()
+	SettingTab:Button("ไอ้ก็อตโครตหล่อ",function()
 		local request = request or http_request or (syn and syn.request)
 		if not request then return end
 		local start = 6463
